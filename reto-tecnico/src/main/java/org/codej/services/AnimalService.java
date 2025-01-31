@@ -7,14 +7,14 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class AnimalService {
-    public Animal crearAnimal(String name, AnimalType type, String sonido) {
+    public Animal crearAnimal(String name, AnimalType type, String sound) {
         switch (type) {
             case TERRESTRE:
-                return new TerrestreAnimal(name, sonido);
+                return new TerrestreAnimal(name, sound);
             case ACUATICO:
-                return new AcuaticoAnimal(name, sonido);
+                return new AcuaticoAnimal(name, sound);
             case VOLADOR:
-                return new VoladorAnimal(name, sonido);
+                return new VoladorAnimal(name, sound);
             default:
                 throw new IllegalArgumentException("Tipo de animal no reconocido");
         }

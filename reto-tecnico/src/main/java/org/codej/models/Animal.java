@@ -5,12 +5,12 @@ import org.codej.enums.AnimalType;
 public abstract class Animal {
     protected String name;
     protected AnimalType type;
-    protected String sonido;
+    protected String sound;
 
-    public Animal(String name, AnimalType type, String sonido) {
+    public Animal(String name, AnimalType type, String sound) {
         this.name = name;
         this.type = type;
-        this.sonido = sonido;
+        this.sound = sound;
     }
 
     public String getName() {
@@ -22,6 +22,6 @@ public abstract class Animal {
     }
 
     public String description() {
-        return name + " hace " + sonido;
+        return name + " hace " + sound;
     }
 }

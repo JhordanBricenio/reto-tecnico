@@ -17,3 +17,9 @@ c
 3src/main/java/org/codej/services/AnimalService.java,2\2\221570fdf49111a606f04660b9cb34dd77717bc2
 ]
 -src/main/java/org/codej/config/AppConfig.java,5\e\5ecd3a729964ae6a6d1d1d29c7ea98ff536d089d
+Q
+!src/main/java/org/codej/Main.java,9\2\92f32b3be1279ca29d9ce67e4aa563974d65fc62
+c
+3src/main/java/org/codej/models/TerrestreAnimal.java,e\7\e7008a42c755ff7819ba82b000d670058a8982c8
+a
+1src/main/java/org/codej/models/VoladorAnimal.java,b\b\bb1d8298b860e20316532329ea5574c49ed1c1af
