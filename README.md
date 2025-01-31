@@ -34,7 +34,7 @@ Este proyecto implementa la creación de objetos de animales con la funcionalida
   mvn test
 
 ## 📒 Estructura del proyecto
-  src/
+src/
  ├── main/
  │   ├── java/org/codej/
  │   │   ├── config/
@@ -63,7 +63,7 @@ Este proyecto implementa la creación de objetos de animales con la funcionalida
  ## 🏢 Repositorio y pull request
  
  master
-  ├── develop
+ ├── develop
        ├── feature/retoTecnico
             ├── Creacion del proyecto
             ├── Implementacion del reto
