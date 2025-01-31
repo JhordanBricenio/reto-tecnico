@@ -35,3 +35,5 @@ c
 +src/main/java/org/codej/models/IAnimal.java,2\4\24e9b9c2bdc1feb4718841c60e0d4b5c3f99e3f6
 j
 :src/main/java/org/codej/interfaces/IAnimalDescription.java,1\f\1ffb06efdf2cda04784a5836da66f82e5b3aecf9
+g
+7src/test/java/org/codej/services/AnimalServiceTest.java,f\a\fa089d2fdaeee58d6ef8f2605339c7890d0c129f
