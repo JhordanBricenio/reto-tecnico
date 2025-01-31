@@ -13,3 +13,7 @@ Z
 *src/main/java/org/codej/models/Animal.java,6\4\640b7559c8aeefa0b6b9dfbfa69937f32d1981bb
 b
 2src/main/java/org/codej/models/AcuaticoAnimal.java,7\5\75ad2e2b6cc6dc3037c6feea43cf3484b5ee6859
+c
+3src/main/java/org/codej/services/AnimalService.java,2\2\221570fdf49111a606f04660b9cb34dd77717bc2
+]
+-src/main/java/org/codej/config/AppConfig.java,5\e\5ecd3a729964ae6a6d1d1d29c7ea98ff536d089d
