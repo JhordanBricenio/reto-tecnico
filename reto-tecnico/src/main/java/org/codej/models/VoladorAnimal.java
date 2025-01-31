@@ -8,4 +8,9 @@ public class VoladorAnimal extends Animal {
         super(name, AnimalType.VOLADOR, sound);
     }
 
+    @Override
+    public String description() {
+        return this.getName() + " hace " + this.getSound();
+    }
+
 }

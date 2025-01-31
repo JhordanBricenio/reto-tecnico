@@ -27,7 +27,7 @@ public class Main {
     private void validArguments(String[] args) {
         if (args.length == 0) {
             System.out.println("Formato de entrada esperado: nombre|tipo|onomatopeya");
-            System.out.println("Ejemplo: java -jar retoTecnico-1.0-SNAPSHOT.jar \"Perro|TERRESTRE|guauguau\" \"Pez|ACUATICO|gluglu\"");
+            System.out.println("Ejemplo: java -jar reto-tecnico-1.0-SNAPSHOT.jar \"Perro|TERRESTRE|guauguau\" \"Pez|ACUATICO|gluglu\"");
         }
     }
     private void processArguments(String[] args, AnimalService animalService,
@@ -48,7 +48,7 @@ public class Main {
                 AnimalType type = AnimalType.valueOf(data[1].toUpperCase());
                 String sound = data[2];
 
-                Animal animal = animalService.crearAnimal(name, type, sound);
+                Animal animal = animalService.createAnimal(name, type, sound);
                 animals.add(animal);
             } catch (IllegalArgumentException e) {
                 System.out.println("Error procesando: " + arg);

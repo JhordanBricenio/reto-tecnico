@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class AnimalService {
-    public Animal crearAnimal(String name, AnimalType type, String sound) {
+    public Animal createAnimal(String name, AnimalType type, String sound) {
         switch (type) {
             case TERRESTRE:
                 return new TerrestreAnimal(name, sound);

@@ -23,3 +23,15 @@ c
 3src/main/java/org/codej/models/TerrestreAnimal.java,e\7\e7008a42c755ff7819ba82b000d670058a8982c8
 a
 1src/main/java/org/codej/models/VoladorAnimal.java,b\b\bb1d8298b860e20316532329ea5574c49ed1c1af
+]
+-src/test/java/org/codej/model/AnimalTest.java,d\b\db8dc9cba4852510eda9f72a27bbc5a4ff0ecf87
+d
+4src/main/java/org/codej/models/TerrestreIAnimal.java,6\d\6d2b0944a6eb7d99a70698a3a39730a6f9048611
+b
+2src/main/java/org/codej/models/VoladorIAnimal.java,2\5\258e09d5be0c5b80245a2c8b7c1a66c027e04746
+c
+3src/main/java/org/codej/models/AcuaticoIAnimal.java,2\c\2c0bfacb5a8c77930bd479aace2e8b4087e555f3
+[
++src/main/java/org/codej/models/IAnimal.java,2\4\24e9b9c2bdc1feb4718841c60e0d4b5c3f99e3f6
+j
+:src/main/java/org/codej/interfaces/IAnimalDescription.java,1\f\1ffb06efdf2cda04784a5836da66f82e5b3aecf9

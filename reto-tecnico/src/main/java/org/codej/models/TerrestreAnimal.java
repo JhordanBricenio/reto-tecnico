@@ -8,4 +8,10 @@ public class TerrestreAnimal extends Animal {
         super(name, AnimalType.TERRESTRE, sound);
     }
 
+    @Override
+    public String description() {
+        return this.getName() + " hace " + this.getSound();
+    }
+
+
 }

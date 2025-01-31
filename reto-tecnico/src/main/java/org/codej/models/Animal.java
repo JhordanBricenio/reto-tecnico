@@ -1,8 +1,9 @@
 package org.codej.models;
 
 import org.codej.enums.AnimalType;
+import org.codej.interfaces.IAnimalDescription;
 
-public abstract class Animal {
+public abstract class Animal implements IAnimalDescription {
     protected String name;
     protected AnimalType type;
     protected String sound;
@@ -21,7 +22,7 @@ public abstract class Animal {
         return type;
     }
 
-    public String description() {
-        return name + " hace " + sound;
+    public String getSound() {
+        return sound;
     }
 }
